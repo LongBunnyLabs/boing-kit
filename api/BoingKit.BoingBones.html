@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BoingBones
+   | Boing Kit API Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BoingBones
+   | Boing Kit API Reference ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="Boing Kit">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BoingKit.BoingBones">
+  
+  
+  <h1 id="BoingKit_BoingBones" data-uid="BoingKit.BoingBones" class="text-break">Class BoingBones
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="BoingKit.BoingBase.html">BoingBase</a></div>
+    <div class="level2"><a class="xref" href="BoingKit.BoingBehavior.html">BoingBehavior</a></div>
+    <div class="level3"><a class="xref" href="BoingKit.BoingReactor.html">BoingReactor</a></div>
+    <div class="level4"><span class="xref">BoingBones</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_UpdateMode">BoingBehavior.UpdateMode</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_TwoDDistanceCheck">BoingBehavior.TwoDDistanceCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_TwoDPositionInfluence">BoingBehavior.TwoDPositionInfluence</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_TwoDRotationInfluence">BoingBehavior.TwoDRotationInfluence</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_EnablePositionEffect">BoingBehavior.EnablePositionEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_EnableRotationEffect">BoingBehavior.EnableRotationEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_EnableScaleEffect">BoingBehavior.EnableScaleEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_GlobalReactionUpVector">BoingBehavior.GlobalReactionUpVector</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_TranslationLockSpace">BoingBehavior.TranslationLockSpace</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockTranslationX">BoingBehavior.LockTranslationX</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockTranslationY">BoingBehavior.LockTranslationY</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockTranslationZ">BoingBehavior.LockTranslationZ</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_RotationLockSpace">BoingBehavior.RotationLockSpace</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockRotationX">BoingBehavior.LockRotationX</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockRotationY">BoingBehavior.LockRotationY</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_LockRotationZ">BoingBehavior.LockRotationZ</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_Params">BoingBehavior.Params</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_SharedParams">BoingBehavior.SharedParams</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_PositionSpring">BoingBehavior.PositionSpring</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_RotationSpring">BoingBehavior.RotationSpring</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_ScaleSpring">BoingBehavior.ScaleSpring</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_Start">BoingBehavior.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_UpdateFlags">BoingBehavior.UpdateFlags()</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_PrepareExecute_System_Boolean_">BoingBehavior.PrepareExecute(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_Execute_System_Single_">BoingBehavior.Execute(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_PullResults">BoingBehavior.PullResults()</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_GatherOutput_BoingKit_BoingWork_Output__">BoingBehavior.GatherOutput(BoingWork.Output)</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_CurrentVersion">BoingBase.CurrentVersion</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_PreviousVersion">BoingBase.PreviousVersion</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_InitialVersion">BoingBase.InitialVersion</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_Executed">BoingBase.Executed</a>
+    </div>
+    <div>
+      <a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_MarkExecuted">BoingBase.MarkExecuted()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BoingKit.html">BoingKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="BoingKit_BoingBones_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BoingBones : BoingReactor</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="BoingKit_BoingBones_BoingColliders" data-uid="BoingKit.BoingBones.BoingColliders">BoingColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoingBoneCollider[] BoingColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BoingKit.BoingBoneCollider.html">BoingBoneCollider</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_BoneChains" data-uid="BoingKit.BoingBones.BoneChains">BoneChains</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoingBones.Chain[] BoneChains</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BoingKit.BoingBones.Chain.html">BoingBones.Chain</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawBoingBones" data-uid="BoingKit.BoingBones.DebugDrawBoingBones">DebugDrawBoingBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawBoingBones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawBoneNames" data-uid="BoingKit.BoingBones.DebugDrawBoneNames">DebugDrawBoneNames</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawBoneNames</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawChainBounds" data-uid="BoingKit.BoingBones.DebugDrawChainBounds">DebugDrawChainBounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawChainBounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawColliders" data-uid="BoingKit.BoingBones.DebugDrawColliders">DebugDrawColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawFinalBones" data-uid="BoingKit.BoingBones.DebugDrawFinalBones">DebugDrawFinalBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawFinalBones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawLengthFromRoot" data-uid="BoingKit.BoingBones.DebugDrawLengthFromRoot">DebugDrawLengthFromRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawLengthFromRoot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawRawBones" data-uid="BoingKit.BoingBones.DebugDrawRawBones">DebugDrawRawBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawRawBones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_DebugDrawTargetBones" data-uid="BoingKit.BoingBones.DebugDrawTargetBones">DebugDrawTargetBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugDrawTargetBones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_MaxCollisionResolutionSpeed" data-uid="BoingKit.BoingBones.MaxCollisionResolutionSpeed">MaxCollisionResolutionSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxCollisionResolutionSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_TwistPropagation" data-uid="BoingKit.BoingBones.TwistPropagation">TwistPropagation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TwistPropagation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BoingKit_BoingBones_UnityColliders" data-uid="BoingKit.BoingBones.UnityColliders">UnityColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collider[] UnityColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="BoingKit_BoingBones_AccumulateTarget_" data-uid="BoingKit.BoingBones.AccumulateTarget*"></a>
+  <h4 id="BoingKit_BoingBones_AccumulateTarget_BoingKit_BoingEffector_Params__System_Single_" data-uid="BoingKit.BoingBones.AccumulateTarget(BoingKit.BoingEffector.Params@,System.Single)">AccumulateTarget(ref BoingEffector.Params, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AccumulateTarget(ref BoingEffector.Params effector, float dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BoingKit.BoingEffector.Params.html">BoingEffector.Params</a></td>
+        <td><span class="parametername">effector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BoingKit_BoingBones_EndAccumulateTargets_" data-uid="BoingKit.BoingBones.EndAccumulateTargets*"></a>
+  <h4 id="BoingKit_BoingBones_EndAccumulateTargets" data-uid="BoingKit.BoingBones.EndAccumulateTargets">EndAccumulateTargets()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndAccumulateTargets()</code></pre>
+  </div>
+  
+  
+  <a id="BoingKit_BoingBones_HandleTeleport_" data-uid="BoingKit.BoingBones.HandleTeleport*"></a>
+  <h4 id="BoingKit_BoingBones_HandleTeleport" data-uid="BoingKit.BoingBones.HandleTeleport">HandleTeleport()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void HandleTeleport()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_HandleTeleport">BoingBehavior.HandleTeleport()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_HandleTeleport_" data-uid="BoingKit.BoingBones.HandleTeleport*"></a>
+  <h4 id="BoingKit_BoingBones_HandleTeleport_System_Int32_" data-uid="BoingKit.BoingBones.HandleTeleport(System.Int32)">HandleTeleport(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HandleTeleport(int iChain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iChain</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BoingKit_BoingBones_OnDisable_" data-uid="BoingKit.BoingBones.OnDisable*"></a>
+  <h4 id="BoingKit_BoingBones_OnDisable" data-uid="BoingKit.BoingBones.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDisable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_OnDisable">BoingBehavior.OnDisable()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_OnEnable_" data-uid="BoingKit.BoingBones.OnEnable*"></a>
+  <h4 id="BoingKit_BoingBones_OnEnable" data-uid="BoingKit.BoingBones.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnEnable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_OnEnable">BoingBehavior.OnEnable()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_OnUpgrade_" data-uid="BoingKit.BoingBones.OnUpgrade*"></a>
+  <h4 id="BoingKit_BoingBones_OnUpgrade_BoingKit_Version_BoingKit_Version_" data-uid="BoingKit.BoingBones.OnUpgrade(BoingKit.Version,BoingKit.Version)">OnUpgrade(Version, Version)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnUpgrade(Version oldVersion, Version newVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BoingKit.Version.html">Version</a></td>
+        <td><span class="parametername">oldVersion</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BoingKit.Version.html">Version</a></td>
+        <td><span class="parametername">newVersion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBase.html#BoingKit_BoingBase_OnUpgrade_BoingKit_Version_BoingKit_Version_">BoingBase.OnUpgrade(Version, Version)</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_OnValidate_" data-uid="BoingKit.BoingBones.OnValidate*"></a>
+  <h4 id="BoingKit_BoingBones_OnValidate" data-uid="BoingKit.BoingBones.OnValidate">OnValidate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnValidate()</code></pre>
+  </div>
+  
+  
+  <a id="BoingKit_BoingBones_PrepareExecute_" data-uid="BoingKit.BoingBones.PrepareExecute*"></a>
+  <h4 id="BoingKit_BoingBones_PrepareExecute" data-uid="BoingKit.BoingBones.PrepareExecute">PrepareExecute()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PrepareExecute()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingReactor.html#BoingKit_BoingReactor_PrepareExecute">BoingReactor.PrepareExecute()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_Reboot_" data-uid="BoingKit.BoingBones.Reboot*"></a>
+  <h4 id="BoingKit_BoingBones_Reboot" data-uid="BoingKit.BoingBones.Reboot">Reboot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reboot()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_Reboot">BoingBehavior.Reboot()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_Reboot_" data-uid="BoingKit.BoingBones.Reboot*"></a>
+  <h4 id="BoingKit_BoingBones_Reboot_System_Int32_" data-uid="BoingKit.BoingBones.Reboot(System.Int32)">Reboot(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reboot(int iChain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iChain</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BoingKit_BoingBones_Register_" data-uid="BoingKit.BoingBones.Register*"></a>
+  <h4 id="BoingKit_BoingBones_Register" data-uid="BoingKit.BoingBones.Register">Register()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Register()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingReactor.html#BoingKit_BoingReactor_Register">BoingReactor.Register()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_RescanBoneChains_" data-uid="BoingKit.BoingBones.RescanBoneChains*"></a>
+  <h4 id="BoingKit_BoingBones_RescanBoneChains" data-uid="BoingKit.BoingBones.RescanBoneChains">RescanBoneChains()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RescanBoneChains()</code></pre>
+  </div>
+  
+  
+  <a id="BoingKit_BoingBones_Restore_" data-uid="BoingKit.BoingBones.Restore*"></a>
+  <h4 id="BoingKit_BoingBones_Restore" data-uid="BoingKit.BoingBones.Restore">Restore()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Restore()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingBehavior.html#BoingKit_BoingBehavior_Restore">BoingBehavior.Restore()</a></div>
+  
+  
+  <a id="BoingKit_BoingBones_Unregister_" data-uid="BoingKit.BoingBones.Unregister*"></a>
+  <h4 id="BoingKit_BoingBones_Unregister" data-uid="BoingKit.BoingBones.Unregister">Unregister()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Unregister()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BoingKit.BoingReactor.html#BoingKit_BoingReactor_Unregister">BoingReactor.Unregister()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

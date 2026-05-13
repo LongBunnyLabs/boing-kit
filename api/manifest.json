@@ -1,0 +1,932 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/programming/Unity/dev/unity-boing-kit",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Aabb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Aabb.html",
+          "hash": "8G+6x2I8a67aoYZGGmmkUSBSZ6HNcYTO2b4huIEOzZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BitArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BitArray.html",
+          "hash": "ww0jqdh3t+f1b7apdS7qy/hokd4N8NInRZgKTsX64yo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Bits32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Bits32.html",
+          "hash": "tDMk8f3YvJ2+KSrONaOdWlVpLzvsxVtJaaqBvPmjzL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBase.html",
+          "hash": "v4dqJs0n0SEUuCKT+L7aBSacm1xKzC6AqHXiXudw4Io="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBehavior.html",
+          "hash": "LqKecWKb0KO66tirOY9YLZNmkq2rgF9d+6Kbi1XgmeQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBehaviorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBehaviorEditor.html",
+          "hash": "wcWBnKWfzutuojzLf0tUl0SRx+BCTeNN2ME5qH/o3cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBoneCollider.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBoneCollider.Type.html",
+          "hash": "AuHNf9qpjexeHPRcshQdemQ9bWBpROrZJAxhq7X9AYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBoneCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBoneCollider.html",
+          "hash": "HQMeWdnQ4uF/2lrQDJ5Gz+sYTj0VNgruTKBO1rQXz+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBones.Bone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBones.Bone.html",
+          "hash": "AYt3nz9e07dBa5TrHyo+KAH5m1Uy3cHPN/5gFqX6cmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBones.Chain.CurveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBones.Chain.CurveType.html",
+          "hash": "g7a8vTUz1PFv0412vkgirXoc8ejSjf8DPqM83lWRP24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBones.Chain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBones.Chain.html",
+          "hash": "DHbloh2MxyN2GivdEcf+2KDFjdke8npyxhUoTYVNpu8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBones.html",
+          "hash": "DghoDB1beD+QlcbM+l3MXooFfbTNGHtNx1yxOFBrW38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingBonesEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingBonesEditor.html",
+          "hash": "FZMRZT8Y0yNE3VoMGhF+P4zfvROy8FuR2tHuGzZ7L/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingEditorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingEditorBase.html",
+          "hash": "FrEXHox0pyveI2oC9ru67YCW+7yhOdQMQQBeeVHfM0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingEffector.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingEffector.Params.html",
+          "hash": "Pa5eEBJiI+eMkcl2H802dABZlUxGc8taobTdKQK9FT8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingEffector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingEffector.html",
+          "hash": "h2vBjqo92vnH4bsjJ2TjM/0RQob8SAUw0tRkan+PY9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingKit.html",
+          "hash": "5Vs8nKHPQlUx51Zxq/FfM5eguI+RS4YEpvkglDM1YS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.BehaviorRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.BehaviorRegisterDelegate.html",
+          "hash": "xDKiK1VLveBN3+S0LX49cHl/FAwokBR5/MzxfDz49Qo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.BehaviorUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.BehaviorUnregisterDelegate.html",
+          "hash": "Txldnh6twLSSiRJkRltSfIDRfv2pVbks3LXMTh/beA8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.BonesRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.BonesRegisterDelegate.html",
+          "hash": "7S93s6avEd2GM2cqLC4n/iH20GWr6PYZ7LNaX3/b3bg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.BonesUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.BonesUnregisterDelegate.html",
+          "hash": "v/1LWXMdzqw5Y4pxPJZsuTBAavgZ90xNu92GYTOZvmU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.EffectorRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.EffectorRegisterDelegate.html",
+          "hash": "kl1Bwm6a3phdIDyJJiyOFxCzpILINAQuiZyL0iMm4iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.EffectorUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.EffectorUnregisterDelegate.html",
+          "hash": "hmTTiZKbgLMwiVl0FZtUCn6JOF/SwGnxGmf3WReum+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldCPUSamplerRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldCPUSamplerRegisterDelegate.html",
+          "hash": "UO7fh6saQtvA+Op+HKxGWYaPx+Bma7RAgkkCh2Prt+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldCPUSamplerUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldCPUSamplerUnregisterDelegate.html",
+          "hash": "FDMrLbNZI/zfg6GT162+jLlllfPXkgSdXUNhGWeeUSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldGPUSamplerRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldGPUSamplerRegisterDelegate.html",
+          "hash": "LZH3qBsq2u8fKVEpFVikD7CYtIpWxAUe/ytfw/N1duM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldGPUSamplerUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldGPUSamplerUnregisterDelegate.html",
+          "hash": "/VoLtGVUuuehXG6OVFRala/f3k+fT6oFA+03xd4tk9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldRegisterDelegate.html",
+          "hash": "dJH/sH454kalA+wuSImFIqWyBRJP4MNsC81AqiKjtH8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorFieldUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorFieldUnregisterDelegate.html",
+          "hash": "27h6WSO1nTWU0cZ9UZuW211X+Og9ZNAKXcwcmM6sS4Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorRegisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorRegisterDelegate.html",
+          "hash": "VGAWOvVXeNjZZIMv8n10uAchgnjPTFr77bCIe9BtB9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.ReactorUnregisterDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.ReactorUnregisterDelegate.html",
+          "hash": "X0G2DDXEMtQ83UZQbO0roZTL1Y+WOnd6oJEIvEk731I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.TransformLockSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.TransformLockSpace.html",
+          "hash": "u4Y6iVavcG548vgBJlMaTHyLxQNhfOCjfiV92dPFD1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.UpdateMode.html",
+          "hash": "lslSJn+IOU1jNJGk7Lg3r3QKo+Y/ezlUW9wkH9+ODT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManager.html",
+          "hash": "Se5fCe91e823OnzUATDFUJgwTQS5TFP6nEbmY1yzFeA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManagerPostUpdatePump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManagerPostUpdatePump.html",
+          "hash": "MsMPcRXTtAKjWAYyPDMTSF0V6jiFLH6pSmvN6cSbLdY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingManagerPreUpdatePump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingManagerPreUpdatePump.html",
+          "hash": "b1chk75HCZd1KdG8A4RUbQEc1if2oE5f+4+EmXQh/N0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactor.html",
+          "hash": "FUxd/6tCzObp16+VRypB4pToyBRp4VsnKCD8Qd/DIZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorEditor.html",
+          "hash": "vk2k3R5uHeykrkTEMhMBhacf63OuAe847cgd769dtfo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.CellMoveModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.CellMoveModeEnum.html",
+          "hash": "49CUR4ZJfiVQfs/sCvaWPvh9rrzrzHzKefnEoa6nGHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.FalloffDimensionsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.FalloffDimensionsEnum.html",
+          "hash": "uf1KTOsuU0r62fMjkAjecmTzqPrIFNOv6VD+EtP9BW0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.FalloffModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.FalloffModeEnum.html",
+          "hash": "pfjfrUfTPSvb8C+UA5Qg/DW8RxCrCcq08l3ZgiCzlag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.HardwareModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.HardwareModeEnum.html",
+          "hash": "XC5OIx/wkswwzbBEthn5yqd5KGtNmQfjrY5kFRzMha0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.ShaderPropertyIdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.ShaderPropertyIdSet.html",
+          "hash": "Ukj3QWr2CuEU9DxE6s4T2+7PgaENrdmWeheDJOS/l8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorField.html",
+          "hash": "uD+kXVyKUJMFbPCtd3CpCw98eMeHuH1iFs7Roe/jtuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorFieldCPUSampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorFieldCPUSampler.html",
+          "hash": "P1FgPlWInIfzlDr6nRO6tScUXf3fGDbyHeGbcOCJahM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorFieldEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorFieldEditor.html",
+          "hash": "OiErvmwo57xQMg9T9wT7kuFrIPPoWJCDF9JXiIBMMJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingReactorFieldGPUSampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingReactorFieldGPUSampler.html",
+          "hash": "dMZaWBqcNT7rulsa+Xk2qN07zmqlw/i47dLPTdYOhLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.EffectorFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.EffectorFlags.html",
+          "hash": "wfDmlCfUiRMka10UpwBzhDsU7gTYQqZZZ/HZnJHMZdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.Output.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.Output.html",
+          "hash": "aovGwqSoSA0pesH9F0v85QekjNY0hYgm82rGwlFPGXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.Params.InstanceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.Params.InstanceData.html",
+          "hash": "I4xgOjpaQweEiqc5KSJ6tW/AkxaRpCxTIlCEs4ZeBXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.Params.html",
+          "hash": "TiRGvav0GNXPB9b7UxGA1/yNMnmodFkj+LlPOnfsbd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.ReactorFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.ReactorFlags.html",
+          "hash": "5Ne0y+4i8bqY73bo/0XAKM5Z2pKtg/D3riJaTUmAzNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.BoingWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.BoingWork.html",
+          "hash": "vDMpXhmDcCbHiDc1RDS9A3DVDmx7Q3/zmySq4YV3mPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Codec.html",
+          "hash": "xB/9x43MSShRfZtiAHFvLB1kgva6gF9RS1XAQ5jqPNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Collision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Collision.html",
+          "hash": "FwCUlrIBoLsiySSrkt7UT4mduyCQ0oFmCZ/TfyaMeXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.ConditionalFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.ConditionalFieldAttribute.html",
+          "hash": "UyfjEDndWlECg7eRWAYomMKR2slFnaSGGIthS8khbLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.FloatSpring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.FloatSpring.html",
+          "hash": "iX1+AQ9YxtboYcBCPx7AZA5B7lff4rKAVxrMDJValjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.MathUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.MathUtil.html",
+          "hash": "YkwH2BL1/qpimrJiErBKnKzbOmuSfqxlHh5IZIA7RhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.ParameterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.ParameterMode.html",
+          "hash": "Er+yfvzweZbrNIMasaogddj9zoRnUFYIkz+Y0qu42uE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.QuaternionSpring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.QuaternionSpring.html",
+          "hash": "XGomIsX6pwaN4xppEE9ZfRcLC7twnc6KvgIXzGcNRWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.QuaternionUtil.SterpMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.QuaternionUtil.SterpMode.html",
+          "hash": "jTHS51+bzBiCqtyYRsU3LTGgJbMOQby+ZTUrYGoo/vg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.QuaternionUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.QuaternionUtil.html",
+          "hash": "TCQZKLbYAyJC39wTZpkc/RT4vRqC7kqetuPvJjH+W4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.SharedBoingParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.SharedBoingParams.html",
+          "hash": "5TkuWjnfNSISM2e4FPE86m181Pevxon8fQqo2H1snKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.SharedBoingParamsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.SharedBoingParamsEditor.html",
+          "hash": "aBzhFoqyN7yjQ01HQ/nYQMghuPM29cp5FELiWjMcf8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.TwoDPlaneEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.TwoDPlaneEnum.html",
+          "hash": "3+lwdMFp/VkMC04GE/64/HZw4+8E2+klIsf4YNSqLIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Vector2Spring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Vector2Spring.html",
+          "hash": "zuBWWVex/BW9sSAR8bW2IxiJAp6KIbc2GOR0EdoeaOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Vector3Spring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Vector3Spring.html",
+          "hash": "gm3XC3XxOym+aOFTDJKGvQYsbDS5oc6COPApWHeOLBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Vector4Spring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Vector4Spring.html",
+          "hash": "NYpzlVey5B0bZWHam4NVZ3sPw113breIWhSKs6oasW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.VectorUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.VectorUtil.html",
+          "hash": "8v3DpbJH8obCyz+0I6+oNgQ0QJr5BBJyWvTYG2liAhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.Version.html",
+          "hash": "wbOWD0NWnZptp0CdzrLOQZoCKYGLmGkpUwvFGnULtus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc-src/.docfx-api/BoingKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BoingKit.html",
+          "hash": "cNqBh2j0mkasiBdoEkH2rEcHp7N+V7AylYn7wFyympw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "doc-src/.docfx-api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ly+1wLGT0m9NrkkMSl365sV6X3Ilx4DDzvIkS6+nq84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc-src/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "m48fnLu91AznuwlC2J1+JE33s5lhkfk/4TuD6JDnYcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 71,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
