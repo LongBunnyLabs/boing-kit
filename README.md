@@ -1,1 +1,0 @@
-[Documentation](https://longbunnylabs.github.io/boing-kit/) for [Boing Kit](https://assetstore.unity.com/packages/tools/particles-effects/boing-kit-dynamic-bouncy-bones-grass-and-more-135594), a procedural bouncy VFX tool for Unity.
